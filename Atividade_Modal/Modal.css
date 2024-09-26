@@ -1,0 +1,33 @@
+.center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7d5b8c;
+    color: aliceblue;
+
+}
+
+button{
+
+    background-color: d29bfd;
+    padding: 7px;
+    border-radius: 50px;
+    border: 2px solid #69239e;
+    color: rgb(255, 255, 255);
+    background-color: #6b3fa0;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+
+#caixa_modal{
+
+    display: flexbox;
+    border: 2px solid #69239e;
+    background-color: #6b3fa0;
+    border-radius: 5px;
+    margin-top: 10px;
+}

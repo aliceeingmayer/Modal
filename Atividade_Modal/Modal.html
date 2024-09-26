@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Modal.css">
+    <title>Modal</title>
+</head>
+<body class="center">
+    <div class="w3-container">
+        <h2>Modal</h2>
+        <button onclick="document.getElementById('Modal').style.display='block'" class="w3-button w3-black">Abrir Modal</button>
+      
+        <div id="Modal" class="w3-modal">
+          <div class="w3-modal-content">
+            <div id="caixa_modal" class="w3-container">
+              <span onclick="document.getElementById('Modal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+              <p>Obrigada por abrir o Modal</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
